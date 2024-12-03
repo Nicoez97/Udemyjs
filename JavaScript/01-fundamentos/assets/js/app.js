@@ -20,5 +20,4 @@ c ='Hola de nuevo';
 
 //console.table({a, b, c, d, x});
 
-let outerWidth= 1000000;
-const outerHeight= 600;
+let miNuevoNombre='Fernando Herrera';
