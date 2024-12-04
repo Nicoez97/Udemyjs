@@ -28,3 +28,5 @@ console.log({juegosBorrados,juegos});
 
 let metroidIndex= juegos.indexOf('Metroid'); //Casesensitive
 console.log({metroidIndex});
+
+//Referencia
