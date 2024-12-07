@@ -23,14 +23,14 @@ console.log({ peter,tony });
 // Arreglos
 const frutas= ['Manzana','Pera','Piña'];
 
-console.time('spread');
-const otrasFrutas2 = [...frutas];
-console.timeEnd('spread');
 
 console.time('slice');
 const otrasFrutas = frutas.slice();
 console.timeEnd('slice');
 
+console.time('spread');
+const otrasFrutas2 = [...frutas];
+console.timeEnd('spread');
 
 
 
