@@ -29,3 +29,20 @@ if( dia === 0 ){
 }else{
     console.log('No es lunes, martes o domingo...');
 }
+
+
+// Sin usar If Else, o Switch,unicamente objetos
+dia=3;// 0:domingo, 1 : lunes..
+
+const diasLetras={
+    0:'domingo',
+    1:'lunes',
+    2:'martes',
+    3:'miercoles',
+    4:'jueves',
+    5:'viernes',
+    6:'sabado',   
+}
+
+//dia de la semana
+console.log(diasLetras[dia] || 'Dia no es valido');
