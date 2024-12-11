@@ -44,5 +44,6 @@ const diasLetras={
     6:'sabado',   
 }
 
+const diasLetras2=['domingo','lunes','martes','miercoles','jueves','viernes','sabado',];
 //dia de la semana
-console.log(diasLetras[dia] || 'Dia no es valido');
+console.log(diasLetras2[dia] || 'Dia no es valido');
