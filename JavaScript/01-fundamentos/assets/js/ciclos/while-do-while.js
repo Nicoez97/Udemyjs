@@ -26,3 +26,8 @@ while(carros[i]){
 }
 
 console.warn('Do While');
+let j=0;
+do{
+    console.log(carros[j]);
+    j++;
+}while(carros[j]);
