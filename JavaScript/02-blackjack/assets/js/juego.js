@@ -35,7 +35,12 @@ crearDeck();
 //Esta funcion me permite timar un carta
 
 const pedirCarta = () => {
+
+    if (deck.length === 0){
+        throw 'No hay carta en el deck' //muestra un error por consola 
+    }
     
+
     const carta = deck.pop();
 
     console.log(deck);
@@ -43,4 +48,15 @@ const pedirCarta = () => {
     return carta;
 }
 
-pedirCarta();
+//pedirCarta ();
+const valorCarta= ( carta )=> {
+
+    const valor= carta.substring(0, carta.length - 1);
+    return ( isNaN( valor ) ) ?
+            ( valor === 'A' ) ? 11 : 10
+            : valor * 1;  
+}
+
+const valor= valorCarta( '9D' );
+console.log ({ valor });
+
