@@ -66,3 +66,7 @@ spiderman.setComidaFavorita = 'El pie de cereza de la tia May';
 console.log ('Conteo statico', Persona._conteo );
 console.log(Persona.conteo);
 Persona.mensaje();
+
+Persona.propiedadExterna= 'Hola mundo';
+console.log( Persona.propiedadExterna );
+console.log( Persona ); 
