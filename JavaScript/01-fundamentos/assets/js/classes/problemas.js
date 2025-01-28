@@ -17,7 +17,7 @@ const pedro = {
 }
 
 //fher.imprimir();
-
+// Ok esto se debe de crear con la palabra new
 function Persona (nombre, edad) {
     console.log('Se ejecuto esta linea');
 
